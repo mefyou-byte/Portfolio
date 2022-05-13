@@ -10,7 +10,7 @@ import { CgGitFork } from "react-icons/cg";
 import {
   AiFillStar,
   AiOutlineHome,
-  //AiOutlineFundProjectionScreen,
+  AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
 
@@ -68,8 +68,8 @@ function NavBar() {
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
-          {
-            /*
+          
+            
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -82,8 +82,8 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
-              */
-          }
+              
+          
 
             <Nav.Item>
               <Nav.Link
